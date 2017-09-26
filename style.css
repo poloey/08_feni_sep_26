@@ -1,0 +1,73 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+input {
+    color: white;
+    padding: 10px;
+    background: skyblue;
+}
+input:hover {
+    background: blue;
+}
+input:focus {
+    background: salmon;
+}
+
+nav {
+    margin-top: 20px;
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #eee;
+    background: tomato;
+    padding: 10px;
+    transition: all .5s;
+
+}
+nav ul li a:hover {
+    background: skyblue;
+}
+
+nav ul li > ul {
+    margin: 0;
+    padding: 0;
+    background: teal;
+    position: absolute;
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li > ul li {
+    display: block;
+    border-bottom: 2px solid sandybrown;
+ }
+nav ul li > ul li:last-child {
+    border-bottom: none;
+}
+nav ul li > ul li a{
+    padding: 10px 20px;
+    color: #eee;
+    background: teal;
+ }
+nav ul li > ul li a:hover{ }
+
+p {
+    color: #666;
+}
+.riad  > p {
+    color: salmon;
+}
