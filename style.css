@@ -59,6 +59,7 @@ nav ul li > ul li:last-child {
     border-bottom: none;
 }
 nav ul li > ul li a{
+    display: block;
     padding: 10px 20px;
     color: #eee;
     background: teal;
