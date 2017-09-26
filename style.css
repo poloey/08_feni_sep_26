@@ -2,18 +2,6 @@ body {
     width: 80%;
     margin: auto;
 }
-input {
-    color: white;
-    padding: 10px;
-    background: skyblue;
-}
-input:hover {
-    background: blue;
-}
-input:focus {
-    background: salmon;
-}
-
 nav {
     margin-top: 20px;
 
@@ -71,4 +59,18 @@ p {
 }
 .riad  > p {
     color: salmon;
+}
+
+input {
+  color: #333;
+  padding: 10px;
+  font-size: 24px;
+}
+input:hover {
+  color: white;
+  background: teal;
+}
+input:focus {
+  color: white;
+  background: skyblue;
 }
