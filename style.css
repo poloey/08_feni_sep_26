@@ -2,6 +2,10 @@ body {
     width: 80%;
     margin: auto;
 }
+
+/**
+* Dropdown navigation using position property
+**/
 nav {
     margin-top: 20px;
 
@@ -52,7 +56,10 @@ nav ul li > ul li a{
     color: #eee;
     background: teal;
  }
-nav ul li > ul li a:hover{ }
+
+ /**
+ * only child selector >
+ **/
 
 p {
     color: #666;
@@ -60,6 +67,12 @@ p {
 .riad  > p {
     color: salmon;
 }
+
+
+ /**
+ * focus pseudo selector
+ **/
+
 
 input {
   color: #333;
