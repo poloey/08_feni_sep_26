@@ -1,5 +1,6 @@
-# class 8
+# class 08
 ### View [all class list](https://github.com/poloey/feni)
+
 ## to select only child not nested child 
 ~~~css
 nav ul li > ul {
