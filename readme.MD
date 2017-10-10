@@ -1,5 +1,6 @@
 # class 08
-### View [all class list](https://github.com/poloey/feni)
+### View [all class list](https://poloey.github.io/feni/)
+
 
 ## to select only child not nested child 
 ~~~css
